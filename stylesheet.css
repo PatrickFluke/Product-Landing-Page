@@ -1,0 +1,57 @@
+﻿a {
+    color: #c47e21;
+}
+body {
+    background: linear-gradient(0.40turn, orange, #c47e21);
+
+}
+
+#button {
+    background: #473813;
+    font-size: 20px;
+    border: black, 3px;
+    text-align:center;
+    justify-content:center;
+    border-radius:30px;
+    margin: auto;
+    width: 100%;
+    color: orange;
+}
+
+#button:hover {
+    background: #70591d;
+}
+
+#content {
+    border: black, 5px;
+    border-style: ridge;
+    background: #f7e8ba;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+    text-align:center;  
+}
+
+#header {
+    display: grid;
+    column-count: 3;
+}
+
+header-img{
+    max-width: 100%;
+    height: auto;
+}
+
+#nav-bar {
+    background: #2e2312;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    align-content:center;
+    width: 100%;
+    border-radius: 30px;
+    margin: auto;
+    height: auto;
+    grid-gap: 10px;
+    position: fixed;
+    top: 0;
+    left:0;
+}
